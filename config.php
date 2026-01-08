@@ -6,8 +6,8 @@ session_start();
 define('DB_HOST', 'localhost');
 define('DB_PORT', '3308');
 define('DB_USER', 'root');
-define('DB_PASSWORD', '3pf_@dm!n');
-define('DB_NAME', 'imfsdb');
+define('DB_PASSWORD', 'test');
+define('DB_NAME', 'test');
 
 // Create connection with timeout and error handling
 function getDBConnection() {
@@ -83,4 +83,5 @@ if (isset($_GET['debug']) && $_GET['debug'] == 'db') {
     echo json_encode(testDBConnection());
     exit;
 }
+
 ?>
