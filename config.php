@@ -3,11 +3,11 @@
 session_start();
 
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_PORT', '3308');
-define('DB_USER', 'root');
-define('DB_PASSWORD', 'test');
-define('DB_NAME', 'test');
+// define('DB_HOST', 'localhost');
+// define('DB_PORT', '3308');
+// define('DB_USER', 'root');
+// define('DB_PASSWORD', 'test');
+// define('DB_NAME', 'test');
 
 // Create connection with timeout and error handling
 function getDBConnection() {
@@ -85,3 +85,4 @@ if (isset($_GET['debug']) && $_GET['debug'] == 'db') {
 }
 
 ?>
+
